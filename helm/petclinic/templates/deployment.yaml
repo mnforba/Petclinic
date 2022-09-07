@@ -26,10 +26,10 @@ spec:
         resources:
           limits:
             cpu: '1'
-            memory: '500Mi'
+            memory: '1G'  # Use 500Mi for hpa
           requests:
             cpu: '1'
-            memory: '500Mi'
+            memory: '1G'  # Use 500Mi for hpa
         ports:
         - containerPort: 8080
       imagePullSecrets:
