@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: classfavor/petclinic
+  repository: mnforba/petclinic:6
   tag: latest
   pullPolicy: IfNotPresent
 
